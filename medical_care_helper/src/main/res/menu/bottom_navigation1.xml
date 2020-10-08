@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="個案資訊"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/schedule"
+        android:icon="@drawable/ic_baseline_schedule_24"
+        android:title="工作排程"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_book"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="服務紀錄"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/statiscs"
+        android:icon="@drawable/ic_baseline_zoom_in_24"
+        android:title="統計查詢"
+        app:showAsAction="withText" />
+
+
+
+</menu>

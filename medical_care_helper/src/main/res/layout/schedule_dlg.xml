@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:text="排程管理"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/g01_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排程起始日:2020年9 月8日"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排程截止日:2020年8 月8日"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服務時間:4點~5點"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t0031"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="共2小時"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每週排程:星期二,星期四"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/g01_b001"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="修改排程" />
+
+        <Button
+            android:id="@+id/g01_b002"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="刪除排程" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:text="個案資訊"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/g01_t005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t006"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手機"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地圵"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/g01_b003"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="撥打電話" />
+        <Button
+            android:id="@+id/g01_b004"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="地址導航" />
+
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:text="服務資訊"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/g01_t008"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t009"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服務種類"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t010"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服務時間"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t011"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="狀態"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/g01_b005"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="服務完成" />
+        <Button
+            android:id="@+id/g01_b007"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="服務取消" />
+
+
+        <Button
+            android:id="@+id/g01_b006"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="關閉視窗" />
+    </LinearLayout>
+</LinearLayout>

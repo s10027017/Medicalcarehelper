@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:text="排程資訊"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/g01_t000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/g01_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排程起始日:2020年9 月8日"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排程截止日:2020年8 月8日"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服務時間:4點~5點"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/g01_t004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每週排程:星期二,星期四"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:text="個案及服務資訊"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/g01_t005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t006"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="電話"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服務種類"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服務時間"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/g01_t009"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="狀態"
+        android:textColor="@color/Navy"
+        android:textSize="16sp"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/g01_b001"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="取消服務" />
+        <Button
+            android:id="@+id/g01_b002"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="撥打電話" />
+    </LinearLayout>
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:text="健康紀錄"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="心跳:"
+            android:textColor="@color/Navy"
+            android:textSize="16sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/g01_e001"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinner"
+            android:ems="10"
+            android:inputType=""
+            android:text="" />
+
+        <TextView
+
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="(舒張壓)"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="~"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/g01_e002"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinner"
+            android:ems="10"
+            android:inputType=""
+            android:text="" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(收縮壓)"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="血糖:"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/g01_e003"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinner"
+            android:ems="10"
+            android:inputType=""
+            android:text="" />
+
+        <TextView
+
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="(飯前)"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="~"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/g01_e004"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinner"
+            android:ems="10"
+            android:inputType=""
+            android:text="" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(飯後)"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="BMI:"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/g01_e005"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinner"
+            android:ems="10"
+            android:inputType=""
+            android:text="" />
+
+        <TextView
+
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="(身高)"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+
+
+
+        <EditText
+            android:id="@+id/g01_e006"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinner"
+            android:ems="10"
+            android:inputType=""
+            android:text="" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(體重)"
+            android:textColor="@color/Navy"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/g01_b003"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="更新紀錄" />
+        <Button
+            android:id="@+id/g01_b004"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="關閉視窗" />
+
+   </LinearLayout>
+</LinearLayout>
+

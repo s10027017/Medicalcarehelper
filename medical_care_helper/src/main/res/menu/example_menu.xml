@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item android:id="@+id/item1"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Item1"
+            app:showAsAction="ifRoom"/>
+    <item android:id="@+id/item2"
+        android:title="Item2"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item3"
+        android:title="Item3"
+        app:showAsAction="never">
+
+<!--        <menu>-->
+
+<!--            <item android:id="@+id/item4"-->
+<!--                android:title="Item4" />-->
+
+<!--            <item android:id="@+id/item5"-->
+<!--                android:title="Item5" />-->
+
+<!--        </menu>-->
+
+    </item>
+    <item android:id="@+id/item4"
+        android:title="Item4"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item5"
+        android:title="Item5"
+        app:showAsAction="never"/>
+
+</menu>

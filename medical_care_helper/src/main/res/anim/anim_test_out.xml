@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:interpolator="@android:anim/linear_interpolator"
+        android:fromXScale="1.0"
+        android:toXScale="0.0"
+        android:fromYScale="1.0"
+        android:toYScale="0.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="2000"/>
+
+    <rotate
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromDegrees="0"
+        android:toDegrees="1080"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="2000"
+        android:fillAfter="false"/>
+
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+        android:fromXDelta="0%p"
+        android:toXDelta="100%p"
+        android:fromYDelta="0%p"
+        android:toYDelta="100%p"
+        android:duration="2000"
+        android:fillAfter="false"/>
+
+</set>
+
+    <!--　　linear_interpolator　動畫變化速度保持一樣　　　　放大縮小
+                   fromXScale="1.0"　動畫起始時X坐標上的伸縮尺寸　1.0表示正常無伸縮
+                   toXScale="0.0"　動畫結束時X坐標上的伸縮尺寸　　0.0表示收縮到沒有　1.0-0.0代表從有到無
+                   fromYScale="1.0"　動畫起始時Y坐標上的伸縮尺寸
+                   toYScale="0.0"　動畫結束時Y坐標上的伸縮尺寸
+                   pivotX="50%"　動畫相對於物件的X坐標的開始位置　在中間
+                   pivotY="50%"　動畫相對於物件的Y坐標的開始位置　在中間
+                   startOffset="1000"　起動畫等多久開始執行,以毫秒為單位　1000=1秒 可+可不+ 但要同步
+                   duration="2000"　動畫持續播放時間,以毫秒為單位　2000=2秒　-->
+
+    <!--　　accelerate_declerate_interpolator　動畫變化速度先快後慢 　　　　旋轉
+                  fromDegrees="0"　動畫起始時物件的角度　0就是0度
+                  toDegrees="1080"　動畫結束時物件旋轉的角度可以大於360度 +順時針 -逆時針 0-1080度 順時針轉3圈
+                  pivotY="50%"　動畫相對於物件的X坐標的開始位置　在中間
+                  pivotY="50%"　動畫相對於物件的Y坐標的開始位置　在中間
+                  startOffset="1000"　起動畫等多久開始執行,以毫秒為單位　1000=1秒 可+可不+ 但要同步
+                  duration="2000"　動畫持續播放時間,以毫秒為單位　2000=2秒　
+                  fillAfter="false" 屬性 當設置為true ，該動畫轉化在動畫結束後被應用　-->
+
+    <!--　　anticipate_overshoot_interpolator　到達終點超出一小步然後回到終點　　　從上到下　layout那邊的clipChildren要用false
+                   startOffset="1000"　起動畫等多久開始執行,以毫秒為單位　1000=1秒 可+可不+ 但要同步
+                   fromXDelta="0%p"　動畫起始時 X坐標上的位置
+                   toXDelta="50%p"　動畫結束時 X坐標上的位置
+                   fromYDelta="0%p"　動畫起始時Y坐標上的位置
+                   toYDelta="50%p"　動畫結束時Y坐標上的位置 ?
+                   duration="2000"　動畫持續播放時間,以毫秒為單位　2000=2秒
+                   fillAfter="false"　屬性 當設置為true ，該動畫轉化在動畫結束後被應用　-->

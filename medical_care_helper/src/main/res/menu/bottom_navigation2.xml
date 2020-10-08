@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="首頁" />
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:title="最新消息" />
+
+    <item
+        android:id="@+id/care"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="照護園地" />
+    <item
+        android:id="@+id/nav_cloud"
+        android:icon="@drawable/ic_baseline_cloud_queue_24"
+        android:title="社群推廣" />
+
+
+</menu>

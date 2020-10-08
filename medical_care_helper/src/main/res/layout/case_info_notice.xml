@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <TextView
+        android:id="@+id/b04_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/openhuninn"
+        android:gravity="center"
+        android:text="注意事項"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/b04_gridview01"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav_view1"
+        android:layout_below="@+id/b04_title"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp" />
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_above="@+id/nav_view1"-->
+    <!--        android:layout_below="@+id/nav_view4"-->
+    <!--        android:layout_marginTop="0dp"-->
+    <!--        android:layout_marginBottom="0dp"-->
+    <!--        android:visibility="invisible">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="@dimen/Spacing">-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t001"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:text="@string/b04_t001"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s001"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a001"-->
+    <!--                    android:spinnerMode="dialog" />-->
+
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t002"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:text="@string/b04_t002"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s002"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a002"-->
+    <!--                    android:spinnerMode="dialog" />-->
+
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t003"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:text="@string/b04_t003"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s003"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a003"-->
+    <!--                    android:spinnerMode="dialog" />-->
+
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t004"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="@string/b04_t004"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s004"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a004"-->
+    <!--                    android:spinnerMode="dialog" />-->
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t005"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="@string/b04_t005"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s005"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a005"-->
+    <!--                    android:spinnerMode="dialog" />-->
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t006"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:text="@string/b04_t006"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s006"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a006"-->
+    <!--                    android:spinnerMode="dialog" />-->
+
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t007"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="@string/b04_t005"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s007"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a007"-->
+    <!--                    android:spinnerMode="dialog" />-->
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t008"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:text="@string/b04_t008"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s008"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a008"-->
+    <!--                    android:spinnerMode="dialog" />-->
+
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t009"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:text="@string/b04_t009"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s009"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a009"-->
+    <!--                    android:spinnerMode="dialog" />-->
+
+    <!--            </TableRow>-->
+
+    <!--            <TableRow-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/b04_t010"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:text="@string/b04_t010"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/b04_s010"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:entries="@array/b04_a010"-->
+    <!--                    android:spinnerMode="dialog" />-->
+
+    <!--            </TableRow>-->
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nav_view2"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_navigation1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_navigation2" >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+</RelativeLayout>

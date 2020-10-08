@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<!--    <group android:id="@+id/group1">-->
+<!--        <item-->
+<!--            android:id="@+id/item0"-->
+<!--            android:orderInCategory="80"-->
+<!--            android:title="註冊登入" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/item1"-->
+<!--            android:orderInCategory="100"-->
+<!--            android:title="@string/menu1"-->
+<!--            android:visible="true" />-->
+<!--        <item-->
+<!--            android:id="@+id/item2"-->
+<!--            android:orderInCategory="200"-->
+<!--            android:title="@string/menu2"-->
+<!--            android:visible="true" />-->
+<!--        <item-->
+<!--            android:id="@+id/item3"-->
+<!--            android:orderInCategory="300"-->
+<!--            android:title="@string/menu3"-->
+<!--            android:visible="true" />-->
+<!--    </group>-->
+
+<!--    <group android:id="@+id/group2">-->
+<!--        <item-->
+<!--            android:id="@+id/item4"-->
+<!--            android:orderInCategory="400"-->
+<!--            android:title="@string/menu4"-->
+<!--            android:visible="false" />-->
+<!--        <item-->
+<!--            android:id="@+id/item5"-->
+<!--            android:orderInCategory="500"-->
+<!--            android:title="@string/menu5"-->
+<!--            android:visible="false" />-->
+<!--    </group>-->
+
+<!--    <item-->
+<!--        android:id="@+id/item7"-->
+<!--        android:orderInCategory="550"-->
+<!--        android:title="會員列表" />-->
+    <item
+        android:id="@+id/item6"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="600"
+        android:title="@string/menu6"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item7"
+        android:icon="?attr/actionModeCloseDrawable"
+        android:orderInCategory="700"
+        android:title="返回"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+
+</menu>

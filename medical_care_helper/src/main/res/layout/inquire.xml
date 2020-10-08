@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:id="@+id/d01_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/d01_t001"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/d01_s001"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/d01_t001"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/d01_t001"
+        android:layout_toRightOf="@id/d01_t001"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/d01_s001"
+        android:spinnerMode="dropdown"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/d01_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/d01_t001"
+        android:layout_marginStart="-10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/d01_s001"
+        android:layout_toRightOf="@+id/d01_s001"
+        android:text="@string/d01_t002"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/d01_t003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d01_t001"
+        android:layout_alignStart="@+id/d01_t002"
+        android:layout_alignLeft="@+id/d01_t002"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/d01_t003"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/d01_t004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/d01_t003"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/d01_t003"
+        android:layout_toRightOf="@+id/d01_t003"
+        android:autoLink="all|phone|none"
+        android:gravity="end"
+        android:singleLine="false"
+        android:text="@string/d01_t004"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TableLayout
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/d01_t002"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/d01_t002"
+        android:layout_toRightOf="@+id/d01_t002">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+
+            <EditText
+                android:id="@+id/d01_e001"
+                android:layout_width="90dp"
+                android:layout_height="25dp"
+                android:background="@android:color/darker_gray"
+                android:text="@string/d01_e001"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:text=" - " />
+
+            <EditText
+                android:id="@+id/d01_e002"
+                android:layout_width="90dp"
+                android:layout_height="25dp"
+                android:background="@android:color/darker_gray"
+                android:text="@string/d01_e002"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/d01_b001"
+        android:layout_width="90dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginRight="5dp"
+        android:text="@string/d01_b001"
+        android:textSize="18sp" />
+
+    <TableRow
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+
+            android:id="@+id/d01_t005"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/d01_t005"
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:id="@+id/d01_t006"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/d01_t006"
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:id="@+id/d01_t007"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/d01_t007"
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:id="@+id/d01_t008"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/d01_t008"
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:id="@+id/d01_t009"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="姓名"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <!--            android:text="@string/d01_t009"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+        android:layout_above="@+id/nav_view1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="29dp">
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:layout_above="@+id/nav_view1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/d01_l001"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/nav_view2"></FrameLayout>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fragment_container"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_navigation1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_navigation2" />
+
+</RelativeLayout>
+
+

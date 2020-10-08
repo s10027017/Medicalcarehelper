@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a01_b001">醫療照護小幫手</string>
+    <string name="a01_e001">帳號</string>
+    <string name="a01_e002">密碼</string>
+    <string name="a01_b002">註冊</string>
+    <string name="a01_b003">登入</string>
+    <string name="a01_b004">忘記密碼</string>
+
+    <string name="a02_t001">註冊帳戶</string>
+    <string name="a02_e001">姓名</string>
+    <string name="a02_e002">電子信箱</string>
+    <string name="a02_e003">確認密碼</string>
+    <string name="a02_b001">返回</string>
+    <string name="a02_b002">完成</string>
+
+    <string name="a03_t001">重設密碼</string>
+    <string name="a03_b001">寄送驗證碼</string>
+    <string name="a03_e001">輸入驗證碼</string>
+    <string name="a03_e002">新密碼</string>
+    <string name="a03_e003">確認新密碼</string>
+    <string name="a03_b002">返回</string>
+    <string name="a03_b003">完成</string>
+
+    <string name="a04_t001">您好</string>
+    <string name="a04_t001_1">親愛的使用者</string>
+    <string name="a04_t001_2">你尚未登入</string>
+    <string name="a04_t001_3">親愛的訪客您好</string>
+    <string name="a04_t002">APP介紹</string>
+    <string name="a04_t003">資料設定</string>
+    <string name="a04_t004">帳號登出</string>
+    <string name="a04_b001">個案資訊</string>
+    <string name="a04_b002">工作排程</string>
+    <string name="a04_b003">統計查詢</string>
+    <string name="a04_b004">照護園地</string>
+    <string name="a04_l001">功能、優惠介紹</string>
+    <string name="a04_b005">首頁</string>
+    <string name="a04_b006">最新消息</string>
+    <string name="a04_b007">服務紀錄</string>
+    <string name="a04_b008">粉絲團</string>
+    <string name="a04_alertdialog_title">確定要結束嗎?</string>
+    <string name="a04_alertdialog_positive">是</string>
+    <string name="a04_alertdialog_negative">否</string>
+    <string name="a04_alertdialog_sign_out_title">確定要登出嗎?</string>
+
+
+    <string name="a05_t001">APP介紹</string>
+    <string name="a05_t002">內容</string>
+
+    <string name="a06_t001">資料設定</string>
+    <string name="a06_b001">儲存</string>
+
+    <string name="a07_menu_sign_in">登入</string>
+    <string name="a07_menu_sign_out">登出</string>
+
+    <string name="a08_dlg_t000">會員登入</string>
+    <string name="a08_dlg_t001">帳號:</string>
+    <string name="a08_dlg_t002">密碼:</string>
+    <string name="a08_dlg_b001">確定</string>
+    <string name="a08_dlg_b002">取消</string>
+
+    <string name="Hint">請輸入資料</string>
+    <string name="hint">Email不可空白</string>
+    <string name="success">註冊成功!</string>
+
+    <string-array name="a01_s001">
+        <item>照護員</item>
+        <item>業主</item>
+    </string-array>
+
+    <string name="d01_t001">姓名 :</string>
+    <string name="d01_t002">期間 :</string>
+    <string name="d01_t003">總計 :</string>
+    <string name="d01_t004">統計工時</string>
+    <string name="d01_b001">查詢</string>
+
+    <string name="d01_t005">日期</string>
+    <string name="d01_t006">上班</string>
+    <string name="d01_t007">下班</string>
+    <string name="d01_t008">工時</string>
+    <string name="d01_t009">備註</string>
+
+    <string name="d01_e001">開始日期</string>
+    <string name="d01_e002">結束日期</string>
+    <string name="d01_e003">工時統計</string>
+    <string-array name="d01_s001">
+        <item>全部</item>
+        <item>楊過</item>
+        <item>令狐沖</item>
+        <item>韋小寶</item>
+    </string-array>
+
+    <string name="c01_t001">案主名稱</string>
+    <string name="c01_t002">類型</string>
+    <string name="c01_t003">細項</string>
+    <string name="c01_t004">時間</string>
+    <string name="c01_t005">…</string>
+    <string name="c01_t006">紀錄</string>
+    <string name="c01_t007">需求</string>
+    <string name="c01_t008">反映</string>
+    <string name="tab_text_1">主頁</string>
+    <string name="tab_text_2">血糖</string>
+    <string name="tab_text_3">血壓</string>
+    <string name="tab_text_4">體重</string>
+    <string name="tab_text_5">體溫</string>
+    <string name="tab_text_6">心跳</string>
+
+    <string-array name="c01_a001">
+        <item>飯前</item>
+        <item>飯後</item>
+    </string-array>
+
+    <string name="e01_t000">NEWS</string>
+    <string name="e01_t001">●最新消息</string>
+    <string name="e01_t002">文章標題</string>
+    <string name="e01_t004">文章內容</string>
+    <string name="e01_b001">返回</string>
+    <string-array name="e_news_title">
+        <item>男自香港返台探親，入境採檢確診</item>
+        <item>「衛福部：從國外帶回糖果餅乾，未查驗販售業者才會罰，自用量上限廣徵意見中」</item>
+        <item>新增2例境外移入病例，均赴菲律賓工作返國確診</item>
+        <item>從「心」出發，走進安心的健康生活</item>
+        <item>新增1例境外移入病例，赴菲律賓工作返國確診</item>
+        <item>「2020世界肝炎日 相約一起篩」 成功治療C肝可降低7成肝癌、淋巴癌、胃癌之風險</item>
+        <item>配合政府辦理口罩實名制之健保藥局獎勵金發放說明</item>
+        <item>食藥署說明含lorcaserin成分藥品之風險效益評估情形</item>
+        <item>自7月16日起，2歲(含)以下持我國居留證的陸籍子女可申請入境</item>
+    </string-array>
+
+    <string-array name="e_news_content">
+        <item>資料來源：疾病管制署\n建檔日期：109-07-19\n更新時間：109-07-19\n\n中央流行疫情指揮中心今(19)日公布國內新增1例境外移入COVID-19(武漢肺炎)病例(案455)，為40多歲男性，於今(2020)年7月17日獨自從香港返國探親。\n指揮中心表示，個案因工作長期居住香港(前次自台灣出境時間為今年4月)，7月15日開始出現乾咳、喉嚨痛症狀，未就醫，17日入境時主動告知有不適症狀，當日機場檢疫人員安排採檢後送至集中檢疫所隔離，於今日確診，目前住院隔離治療中。衛生單位已掌握接觸者共10人，其中2人為個案當地同住之家庭接觸者，未入境台灣，8人為同班機前後兩排旅客，列為居家隔離對象。針對2名家庭接觸者及19名未入境之同班機機組員，已透過雙方聯繫窗口通知港方。\n\n指揮中心統計，國內截至目前累計79,506例新型冠狀病毒肺炎相關通報(含78,568例排除)，其中455例確診，分別為364例境外移入，55例本土病例及36例敦睦艦隊</item>
+        <item>資料來源：食品藥物管理署\n建檔日期：109-07-18\n更新時間：109-07-18\n\n有關媒體報導，衛生福利部食品藥物管理署(下稱食藥署)表示依據食品安全衛生管理法預告修訂民眾以國際郵包或搭機帶回的一般食品，每日不得1,000美元且不得超過6公斤一事，衛福部特別強調，本案仍是草案預告階段，依在預告期間所蒐集的意見，整體評估考慮，在未廣徵社會對本案意見，獲得共識前，衞福部絕對不會貿然施行，民眾單純自用，不必擔心受罰。\n\n衛福部也表示，此次預告草案目的，是為避免不法業者鑽漏洞，假借以個人自用名義，卻分多次攜帶或進口食品後，再透過實體店面或非實體店面販售未經查驗許可之食品，對民眾食品安全造成風險。\n\n因此，如果食品業者輸入食品，没有向食藥署申請輸入查驗，即予以販售。又或者從國外以自用的名義購(帶)入，但未向食藥署申請輸入查驗，卻拿去販售，這些情況經查證屬實者，就違反食品安全衞生管理法第30條，會以第47條第1項第14款，處新台幣3到300萬元罰鍰。其餘民眾單純自用，不必擔心受罰。</item>
+        <item>資料來源：衛生福利部\n建檔日期：109-07-17\n更新時間：109-07-17\n\n中央流行疫情指揮中心今(17)日公布國內新增2例境外移入COVID-19(武漢肺炎)病例，為20多歲女性(案453)及40多歲男性(案454)，均自菲律賓返國。國內截至目前累計79,256例新型冠狀病毒肺炎相關通報(含78,296例排除)，其中454例確診，分別為363例境外移入，55例本土病例及36例敦睦艦隊。\n\n指揮中心表示，案453於去(2019)年12月下旬至菲律賓工作，7月14日出現倦怠、喉嚨痛、咳嗽有痰及鼻塞等症狀，7月15日返國入境時主動告知有不適症狀，由機場檢疫人員安排採檢後送至集中檢疫所隔離，於今日確診，目前收治住院隔離。衛生單位已掌握接觸者共2人，其中1人為案453於菲律賓當地之同住室友，預計今日返台，入境後將列為居家隔離對象，1人為案453同班機前後二排乘客，列為居家隔離對象。另針對6名未入境之同班機機組員，將透過國際衛生條例國家對口單位(IHRNationalFocalPoint)通知相關國家。\n\n指揮中心指出，案454今年1月下旬至菲律賓工作，分別於7月11日及13日出現發燒、嗅覺異常及伴隨感冒症狀，7月15日返國入境時主動告知有相關症狀，由機場檢疫人員安排採檢後送至集中檢疫所隔離，於今日確診，目前收治住院隔離。衛生單位已掌握接觸者共24人，其中12人為同班機前後二排乘客，列為居家隔離對象，12人為同班機機組員，因全程有適當防護，列為自主健康管理對象。\n\n指揮中心監測資料顯示，全球疫情快速上升，7月16日新增病例逾24萬例創新高。美國近期陸續放寬管制措施後，疫情回升至每日新增超過6萬例，現與中南美洲均為疫情流行最嚴峻的地區。鄰近我國的印尼與菲律賓自疫情爆發以來，持續上升，仍未達到高峰；其中印尼近期出現軍校群聚逾1,300例，菲律賓疫情嚴峻但未重新實施較嚴格的管制措施。此外，近期日本、澳洲、香港等均因逐步鬆綁限制措施，致疫情於酒店、校園、大型聚會等具風險場域爆發群聚，或境外個案搭乘計程車等交通運輸而傳播，使疫情惡化擴散至社區並導致不明感染源增加，大幅提升社區感染風險。\n\n指揮中心再次提醒，民眾應做好手部衛生與咳嗽禮節；外出若無法與他人保持社交距離，請全程佩戴口罩。自國外入境時，如有發燒、咳嗽等不適症狀，應主動通報機場及港口檢疫人員並配合防疫措施；返國後應落實14天居家檢疫，如出現疑似症狀，請聯繫衛生局或各縣市關懷中心，並依指示就醫，勿搭乘大眾運輸工具；就醫時，請務必告知醫師旅遊史、職業別、接觸史及是否群聚(TOCC)，以供及時診斷通報。</item>
+        <item>資料來源：國民健康署\n建檔日期：109-07-17\n更新時間：109-07-17\n\n因新冠肺炎疫情影響，造成社會焦慮與不安，如何在疫情後啟動新生活，維持身心平安健康並落實心靈環保已是不可忽視的議題。國民健康署、法鼓山佛教基金會及法鼓山人文社會基金會共同推動「安心城市計畫」，讓全民一起從「心」出發，落實心靈環保及走路活動，帶動社會及人心的淨化與安定。\n安心城市動起來讓健康“走”進你的生活!\n\n因為疫情的關係，改變了人的生活型態，不外乎減少外出運動或及因害怕疫情感到內心不安。靜態的生活習慣可能提升罹患心血管疾病、糖尿病、癌症、以及憂鬱症的風險，研究顯示，運動對於緩解壓力有正向的回饋，世界衛生組織(WHO)建議成年人每週必須從事150分鐘以上的中度身體活動，兒童及青少年每天都應至少達到中度身體活動60分鐘以上。\n國民健康署署長王英偉表示，對於沒有運動習慣的人，「走路」是很好的入門運動，建議民眾把走路融入生活中。研究發現每天走路15分鐘，可改善各項身體機能，運動也會促使大腦分泌「腦內啡」，使心情愉快，提昇專注力及記憶力，緩解壓力並增強免疫力。\n\n沉浸式體驗漫遊安心城市每個當下都安心\n\n本次活動合辦單位財團法人法鼓山人文社會基金會表示：「安心城市計畫」不僅能喚起民眾關心自己的內在及周遭環境，進而連結自己與他人、與大自然的關係，從心出發，身體力行，找到安頓身心的力量。\n\n「安心城市」體驗活動將於7月25日下午3點30分於臺北市花博公園舉辦，民眾可由圓山捷運站路口廣場、護國禪寺、北美館南進門及美術公園等四個入口走進主館-「舞蝶館」，在慢行的過程中，透過WebApp聽覺的刺激與花博的一花一草享受每一個步伐；走進舞蝶館時，透過舞蹈及劇場表演的洗禮，讓民眾在繁忙的生活暫時卸下壓力，享受一場心靈饗宴。在這多元炫麗的世代，回歸到人本身，專注於自我身心靈的沉浸，持以靜心，體會群體與大自然的連結，慢步生活。</item>
+        <item>資料來源：疾病管制署\n建檔日期：109-07-16\n更新時間：109-07-16\n\n中央流行疫情指揮中心今(16)日公布國內新增1例境外移入COVID-19(武漢肺炎)病例(案452)，為30多歲女性，今(2020)年1月下旬至菲律賓工作，7月14日獨自返國。\n\n指揮中心表示，個案返國前曾於6月30日接受公司安排之武漢肺炎採檢，檢驗結果為陰性，7月14日下午出現嗅覺異常情形，同日晚間入境時主動告知有疑似症狀，由機場檢疫人員安排採檢後送至集中檢疫所隔離，經檢驗於今日確診，目前收治住院隔離。\n\n指揮中心指出，衛生單位已掌握個案接觸者共12人，其中1人為同班機前後二排乘客，列為居家隔離對象，11人為同班機機組員，因全程有適當防護，列為自主健康管理對象。\n\n指揮中心統計，國內截至目前累計79,065例新型冠狀病毒肺炎相關通報(含78,100例排除)，其中452例確診，分別為361例境外移入，55例本土病例及36例敦睦艦隊。</item>
+        <item>資料來源：國民健康署\n建檔日期：109-07-16\n更新時間：109-07-16\n\n肝炎是國人常見的健康殺手，肝癌甚至蟬聯癌症死亡前2名達40年！2020年7月28日世界肝炎日主題為「Findingthemissingmillions找出失蹤的百萬病患」，世界衛生組織(WHO)指出全球有2.9億人尚未意識到已感染病毒性肝炎。國民健康署與財團法人台灣肝臟學術文教基金會攜手，共同呼籲護肝三招-「去篩檢、要治療、肝會好」，並以最新研究論文證實成功治療清除C型肝炎病毒可同時降低近7成罹患肝癌、淋巴癌及胃癌之風險，提醒民眾「即篩即治」的重要性。護肝大使季芹在記者會上分享自己的檢測結果，邀請民眾踴躍參加肝炎篩檢活動，一起「幸福肝肝好」！\n\n8成肝癌為B、C肝引起政府有補助篩檢及治療\n\n依據108年死因統計數據顯示，慢性肝病、肝硬化及肝癌死亡共有12,121人；另我國106年癌症登記資料顯示，106年肝癌發生人數為11,225人，其中有8成的肝癌發生是由B、C型肝炎所造成。長期資料顯示，在政府、醫療院所及民間團體長期合作下，慢性肝病、肝硬化及肝癌防治已有成效，國人慢性肝病及肝硬化標準化死亡率下降至108年每10萬人口11.2人，降幅達52%；肝癌標準化發生率下降至106年每10萬人口29.3人，降幅達28%；肝癌標準化死亡率下降至108年每10萬人口18.8人，降幅達36%。為達成世界衛生組織之2030年消除C型肝炎的目標，我國衛生福利部訂定於2025年消除我國C型肝炎的目標，國民健康署今年提供45歲至54歲之民眾，可搭配成人預防保健服務，終身一次B、C型肝炎篩檢補助，108年放寬40-60歲原住民可接受篩檢補助；而中央健康保險署於106年將C型肝炎口服新藥治療，納入健保給付，且病人只要確認感染慢性C肝，不論有無肝纖維化，均可成為給藥對象，且治癒率達97%。國民健康署提醒若民眾不清楚自己是否有B、C型肝炎，請把握現有資源接受篩檢服務；如有B、C型肝炎，須依醫囑進行後續追蹤治療。\n\n台灣新發現：清除C肝減低罹癌風險\n\nC型肝炎感染是國人僅次於B型肝炎引起肝硬化及肝癌的主因。根據高雄醫學大學副校長余明隆教授最新研究顯示，清除C型肝炎病毒，可明顯降低肝癌的風險，從每年每萬有C肝炎病毒感染人口中260人大幅降低至60人；亦可明顯降低胃癌的風險，由每年每萬人口10人下降至每年每萬人口3人；非霍奇金氏淋巴瘤的發生率，亦可顯著由每年每萬人口8人下降至每年每萬人口3人。\n\n余明隆副校長表示清除C型肝炎病毒，成功清除病毒可分別下降7成3罹患非霍奇金氏淋巴瘤，及7成罹患胃癌的風險，另外，數據顯示若未受到幽門桿菌感染的C型肝炎患者，亦可減少6成7的胃癌罹癌風險。余明隆教授表示：「對於C型肝炎治療，應該越早越好，除了可減少肝硬化、肝癌等肝臟相關併發症外，還可進一步降低形成肝外惡性腫瘤的風險。」\n\n肝功能正常不代表未罹患C型肝炎\n\n肝功能正常並不代表未罹患C型肝炎。在C型肝炎患者中，有45%的人肝功能正常，這群顯示肝功能正常的C型肝炎患者中，其實已有23%的人呈現顯著肝纖維化第三或第四期，正邁向肝功能衰竭等嚴重病變。\n\n護肝大使季芹力推百場免費篩檢報你知\n\n主持健康節目多年的季芹，父親因罹癌過世，也讓她愈發警惕、更加注重自身健康，有定期健康檢查的習慣。此次擔任「護肝大使」，特別在記者會上大方秀出剛出爐的檢測報告，結果樣樣都「AllPass」！季芹特別呼籲民眾一起超前部署、愛肝不落人後。\n為呼應國際肝炎日「找出失蹤的百萬病患」口號，財團法人台灣肝臟學術文教基金會將在今年下半年於高雄出發、以高屏澎東為主，將舉辦百場免費篩檢活動。醫療總監戴嘉言教授說明，活動將於7月展開，深入地方推廣護肝三招「去篩檢/要治療/肝會好」，以早期發現、早期治療，讓肝更好。更多活動訊息可打幸福愛肝熱線</item>
+        <item>資料來源：食品藥物管理署\n建檔日期：109-07-16\n更新時間：109-07-16\n\n針對109年2月6日至109年6月30日期間，配合政府辦理口罩實名制表現績優的健保特約藥局，將發給獎勵費用。只要符合口罩銷售累積總天數達20天(含)以上，且按時繳回口罩帳款並依規定銷售者，皆可於109年7月16日(四)至109年7月31日(五)17時，以親送或掛號郵寄方式送交至所屬地方藥師公會或藥劑生公會辦理。\\nn符合申請資格之健保特約藥局，請檢具下列資料：\n(一)申請書(含領據)。\n(二)相關工作人員獎勵清冊。\n(三)帳戶存摺封面影本；如為無存摺帳戶，請提供可供核對之證明資料。\n(四)倘為已停歇業之藥局，請另檢附身分證正反面影本。\n相關申請資料、口罩銷售累計天數及申請說明等，可至本署「嚴重特殊傳染性肺炎(COVID-19，簡稱武漢肺炎)口罩QA」-「口罩實名制獎勵金-健保特約藥局申請作業」專區查詢與下載。\n\n</item>
+        <item>資料來源：食品藥物管理署\n建檔日期：109-07-16\n更新時間：109-07-16\n\n近期國外衛生主管機關發布含lorcaserin成分藥品具有增加罹患癌症(如胰臟癌、直腸癌及肺癌)的警訊。衛生福利部食品藥物管理署(以下簡稱食藥署)前已於109年2月14日發布新聞稿提醒醫療人員及民眾注意該風險，並於同日要求其藥品許可證持有商立即暫停供應、銷售。為確保民眾用藥安全，食藥署持續蒐集國內外資料重新評估其臨床效益及風險，提藥品安全評估諮議小組討論，因該成分藥品主作為對成人身體質量指數(BMI)過高者，於飲食和運動控制後長期體重輔助管理，考量其風險高於臨床效益，故自109年7月16日起廢止含lorcaserin成分藥品許可證，自公告日起藥商、藥局及醫療機構應立即停止輸入、製造、批發、陳列、調劑、零售；藥品許可證持有商亦應於1個月(109年8月16日)內收回市售品。\n\n食藥署再次提醒民眾，正確減肥之道應配合飲食控制，規律運動，如有必要使用藥品協助減重時，應經由醫師診斷，選擇我國核准且合法製藥廠所製造的藥品，再加上耐心和毅力，才能擁有健康的身體、勻稱的身材，切勿隨意購買市面上之減肥藥，以免破財又傷身。\n\n食藥署已建立藥物安全資訊主動監控機制，除有藥物不良反應通報系統之外，對於安全有關訊息，隨時進行瞭解，以保障民眾之用藥安全。同時也提醒醫療人員或病人當有疑似因為使用（服用）藥品導致不良反應發生時，請立即通報給衛生福利部所建置之全國藥物不良反應通報中心，藥物不良反應通報專線02-2396-0100。</item>
+        <item>資料來源：疾病管制署\n建檔日期：109-07-15\n更新時間：109-07-15\n\n中央流行疫情指揮中心經考量國內疫情防控情形及量能、人道衡平性及各方意見後，於今(15)日宣布，自7月16日零時起，開放國人之2歲(含)以下持居留證的陸籍子女申請入境，並得由父母親陪同，入境後須依規定完成14天居家檢疫，執行細節將由移民署與相關單位處理。\n\n指揮中心表示，現階段防疫與人倫兼顧仍難以達到兩全其美，每項措施均可能無法讓所有人滿意，期望各界能諒解。本次優先開放2歲以下持居留證的陸籍子女申請入境，後續將觀察實施情形及中國大陸疫情發展等，再進一步評估是否有調整空間。</item>
+    </string-array>
+
+    <string name="g01_t001">工作排程</string>
+    <string name="g01_b001">上一個月</string>
+    <string name="g01_b002">下一個月</string>
+    <string name="g01_t002">月份行事曆</string>
+
+
+    <string name="g01_t003">行事曆小幫手</string>
+    <string name="g01_t004">姓名:</string>
+    <string name="g01_t005">手機：</string>
+    <string name="g01_t006">地址：</string>
+    <string name="g01_b003">詳細資料</string>
+    <string name="g01_b004">服務完成</string>
+    <string name="g01_b005">導航</string>
+    <string name="g01_b006">關閉</string>
+
+    <string name="mh02_t001">導航</string>
+    <string name="mh02_t002">姓名</string>
+    <string name="mh02_t003">電話</string>
+    <string name="mh02_t004">地址</string>
+
+    <string name="h01_t001">照護園地</string>
+    <string name="h01_b001">醫療院所資訊</string>
+    <string name="h01_b002">藥局資訊</string>
+    <string name="h01_b003">健保用藥品項查詢</string>
+    <string name="h01_b004">中藥方資訊</string>
+    <string name="h01_b005">居家護理參考資訊</string>
+    <string name="h01_b006">導航</string>
+    <string name="h0101_t001">醫療院所資訊:</string>
+    <string name="mh0101_b001">返回</string>
+
+
+    <string name="b01_b002">基本資料</string>
+    <string name="b01_b003">訪查資訊</string>
+    <string name="b01_b004">注意事項</string>
+    <string name="b01_b005">合約資訊</string>
+
+    <string name="b02_t001">姓名</string>
+    <string name="b02_t002">性別</string>
+    <string name="b02_t003">生日</string>
+    <string name="b02_t004">年齡</string>
+    <string name="b02_t005">Email</string>
+    <string name="b02_t006">地址</string>
+    <string name="b02_t007">緊急連絡人</string>
+    <string name="b02_t008">關係</string>
+    <string name="b02_t009">緊急連絡電話</string>
+
+    <string name="b02_rb001">男</string>
+    <string name="b02_rb002">女</string>
+
+    <string name="b02_b001">取消</string>
+    <string name="b02_b002">儲存</string>
+    <string name="b02_title">個案資訊</string>
+
+    <string-array name="b01_a002">
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>臺中市</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+
+        <item>基隆市</item>
+        <item>新竹市</item>
+        <item>嘉義市</item>
+
+        <item>宜蘭縣</item>
+        <item>苗栗縣</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義縣</item>
+        <item>屏東縣</item>
+        <item>花蓮縣</item>
+        <item>臺東縣</item>
+        <item>澎湖縣</item>
+    </string-array>
+
+    <string-array name="b01_a003">
+        <item>中區</item>
+        <item>東區</item>
+        <item>西區</item>
+        <item>南區</item>
+        <item>北區</item>
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>北屯區</item>
+
+        <item>豐原區</item>
+        <item>大里區</item>
+        <item>太平區</item>
+        <item>清水區</item>
+        <item>沙鹿區</item>
+        <item>大甲區</item>
+        <item>東勢區</item>
+        <item>梧棲區</item>
+        <item>烏日區</item>
+        <item>神岡區</item>
+        <item>大肚區</item>
+        <item>大雅區</item>
+        <item>后里區</item>
+        <item>霧峰區</item>
+        <item>潭子區</item>
+        <item>龍井區</item>
+        <item>外埔區</item>
+        <item>和平區</item>
+        <item>石岡區</item>
+        <item>大安區</item>
+        <item>新社區</item>
+    </string-array>
+
+    <string-array name="b01_a004">
+        <item>父親</item>
+        <item>母親</item>
+        <item>兒子</item>
+        <item>女兒</item>
+
+        <item>哥哥</item>
+        <item>弟弟</item>
+        <item>姊姊</item>
+        <item>妹妹</item>
+    </string-array>
+
+    <!--    臺北市行政區劃-->
+    <string-array name="ch_a001">
+        <item>中正區</item>
+        <item>大同區</item>
+        <item>中山區</item>
+        <item>松山區</item>
+        <item>大安區</item>
+        <item>萬華區</item>
+        <item>信義區</item>
+        <item>士林區</item>
+        <item>北投區</item>
+        <item>南港區</item>
+        <item>文山區</item>
+    </string-array>
+    <!--    新北市行政區劃-->
+    <string-array name="ch_a002">
+        <item>板橋區</item>
+        <item>三重區</item>
+        <item>中和區</item>
+        <item>永和區</item>
+        <item>新莊區</item>
+        <item>新店區</item>
+        <item>土城區</item>
+        <item>蘆洲區</item>
+        <item>汐止區</item>
+        <item>樹林區</item>
+        <item>鶯歌區</item>
+        <item>三峽區</item>
+        <item>淡水區</item>
+        <item>瑞芳區</item>
+        <item>五股區</item>
+        <item>泰山區</item>
+        <item>林口區</item>
+        <item>八里區</item>
+        <item>深坑區</item>
+        <item>石碇區</item>
+        <item>坪林區</item>
+        <item>三芝區</item>
+        <item>石門區</item>
+        <item>金山區</item>
+        <item>萬里區</item>
+        <item>平溪區</item>
+        <item>雙溪區</item>
+        <item>貢寮區</item>
+        <item>烏來區</item>
+    </string-array>
+    <!--    桃園市行政區劃-->
+    <string-array name="ch_a003">
+        <item>桃園區</item>
+        <item>八德區</item>
+        <item>龜山區</item>
+        <item>蘆竹區</item>
+        <item>大園區</item>
+        <item>大溪區</item>
+        <item>中壢區</item>
+        <item>平鎮區</item>
+        <item>楊梅區</item>
+        <item>龍潭區</item>
+        <item>新屋區</item>
+        <item>觀音區</item>
+        <item>復興區</item>
+    </string-array>
+    <!--    臺中市行政區劃-->
+    <string-array name="ch_a004">
+        <item>中區</item>
+        <item>東區</item>
+        <item>西區</item>
+        <item>南區</item>
+        <item>北區</item>
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>北屯區</item>
+
+        <item>豐原區</item>
+        <item>大里區</item>
+        <item>太平區</item>
+        <item>清水區</item>
+        <item>沙鹿區</item>
+        <item>大甲區</item>
+        <item>東勢區</item>
+        <item>梧棲區</item>
+        <item>烏日區</item>
+        <item>神岡區</item>
+        <item>大肚區</item>
+        <item>大雅區</item>
+        <item>后里區</item>
+        <item>霧峰區</item>
+        <item>潭子區</item>
+        <item>龍井區</item>
+        <item>外埔區</item>
+        <item>和平區</item>
+        <item>石岡區</item>
+        <item>大安區</item>
+        <item>新社區</item>
+    </string-array>
+    <!--    臺南市行政區劃-->
+    <string-array name="ch_a005">
+        <item>中西區</item>
+        <item>東區</item>
+        <item>南區</item>
+        <item>北區</item>
+        <item>安平區</item>
+        <item>安南區</item>
+        <item>新營區</item>
+        <item>鹽水區</item>
+        <item>白河區</item>
+        <item>柳營區</item>
+        <item>後壁區</item>
+        <item>東山區</item>
+        <item>麻豆區</item>
+        <item>下營區</item>
+        <item>六甲區</item>
+        <item>官田區</item>
+        <item>大內區</item>
+        <item>佳里區</item>
+        <item>學甲區</item>
+        <item>西港區</item>
+        <item>七股區</item>
+        <item>將軍區</item>
+        <item>北門區</item>
+        <item>新化區</item>
+        <item>善化區</item>
+        <item>新市區</item>
+        <item>安定區</item>
+        <item>山上區</item>
+        <item>玉井區</item>
+        <item>楠西區</item>
+        <item>南化區</item>
+        <item>左鎮區</item>
+        <item>仁德區</item>
+        <item>歸仁區</item>
+        <item>關廟區</item>
+        <item>龍崎區</item>
+        <item>永康區</item>
+    </string-array>
+    <!--    高雄市行政區劃-->
+    <string-array name="ch_a006">
+        <item>前金區</item>
+        <item>新興區</item>
+        <item>鹽埕區</item>
+        <item>左營區</item>
+        <item>楠梓區</item>
+        <item>鼓山區</item>
+        <item>旗津區</item>
+        <item>苓雅區</item>
+        <item>三民區</item>
+        <item>前鎮區</item>
+        <item>小港區</item>
+        <item>鳳山區</item>
+        <item>鳥松區</item>
+        <item>大社區</item>
+        <item>仁武區</item>
+        <item>大樹區</item>
+        <item>岡山區</item>
+        <item>燕巢區</item>
+        <item>梓官區</item>
+        <item>永安區</item>
+        <item>彌陀區</item>
+        <item>橋頭區</item>
+        <item>田寮區</item>
+        <item>茄萣區</item>
+        <item>阿蓮區</item>
+        <item>路竹區</item>
+        <item>湖內區</item>
+        <item>那瑪夏區</item>
+        <item>桃源區</item>
+        <item>茂林區</item>
+        <item>六龜區</item>
+        <item>美濃區</item>
+        <item>旗山區</item>
+        <item>甲仙區</item>
+        <item>內門區</item>
+        <item>杉林區</item>
+        <item>林園區</item>
+        <item>大寮區</item>
+    </string-array>
+    <!--    基隆市行政區劃-->
+    <string-array name="ch_a007">
+        <item>中山區</item>
+        <item>中正區</item>
+        <item>信義區</item>
+        <item>仁愛區</item>
+        <item>暖暖區</item>
+        <item>安樂區</item>
+        <item>七堵區</item>
+    </string-array>
+    <!--    新竹縣行政區劃-->
+    <string-array name="ch_a008">
+        <item>竹北市</item>
+        <item>竹東鎮</item>
+        <item>新埔鎮</item>
+        <item>關西鎮</item>
+        <item>新豐鄉</item>
+        <item>峨眉鄉</item>
+        <item>寶山鄉</item>
+        <item>五峰鄉</item>
+        <item>橫山鄉</item>
+        <item>北埔鄉</item>
+        <item>尖石鄉</item>
+        <item>芎林鄉</item>
+        <item>湖口鄉</item>
+    </string-array>
+    <!--    新竹市行政區劃-->
+    <string-array name="ch_a009">
+        <item>東區</item>
+        <item>北區</item>
+        <item>香山區</item>
+    </string-array>
+    <!--    苗栗縣行政區劃-->
+    <string-array name="ch_a010">
+        <item>苗栗市</item>
+        <item>後龍鎮</item>
+        <item>通霄鎮</item>
+        <item>苑裡鎮</item>
+        <item>卓蘭鎮</item>
+        <item>獅潭鄉</item>
+        <item>頭屋鄉</item>
+        <item>西湖鄉</item>
+        <item>公館鄉</item>
+        <item>銅鑼鄉</item>
+        <item>泰安鄉</item>
+        <item>大湖鄉</item>
+        <item>三義鄉</item>
+        <item>竹南鎮</item>
+        <item>頭份市</item>
+        <item>三灣鄉</item>
+        <item>南庄鄉</item>
+        <item>造橋鄉</item>
+    </string-array>
+    <!--    彰化縣行政區劃-->
+    <string-array name="ch_a011">
+        <item>彰化市</item>
+        <item>員林市</item>
+        <item>和美鎮</item>
+        <item>鹿港鎮</item>
+        <item>溪湖鎮</item>
+        <item>二林鎮</item>
+        <item>田中鎮</item>
+        <item>北斗鎮</item>
+        <item>花壇鄉</item>
+        <item>芬園鄉</item>
+        <item>大村鄉</item>
+        <item>永靖鄉</item>
+        <item>伸港鄉</item>
+        <item>線西鄉</item>
+        <item>福興鄉</item>
+        <item>秀水鄉</item>
+        <item>埔心鄉</item>
+        <item>埔鹽鄉</item>
+        <item>大城鄉</item>
+        <item>芳苑鄉</item>
+        <item>竹塘鄉</item>
+        <item>社頭鄉</item>
+        <item>二水鄉</item>
+        <item>田尾鄉</item>
+        <item>埤頭鄉</item>
+        <item>溪州鄉</item>
+    </string-array>
+    <!--    南投縣行政區劃-->
+    <string-array name="ch_a012">
+        <item>南投市</item>
+        <item>埔里鎮</item>
+        <item>草屯鎮</item>
+        <item>竹山鎮</item>
+        <item>集集鎮</item>
+        <item>名間鄉</item>
+        <item>中寮鄉</item>
+        <item>鹿谷鄉</item>
+        <item>水里鄉</item>
+        <item>魚池鄉</item>
+        <item>國姓鄉</item>
+        <item>信義鄉</item>
+        <item>仁愛鄉</item>
+    </string-array>
+    <!--    雲林縣行政區劃-->
+    <string-array name="ch_a013">
+        <item>斗六市</item>
+        <item>斗南鎮</item>
+        <item>虎尾鎮</item>
+        <item>西螺鎮</item>
+        <item>土庫鎮</item>
+        <item>北港鎮</item>
+        <item>林內鄉</item>
+        <item>莿桐鄉</item>
+        <item>二崙鄉</item>
+        <item>崙背鄉</item>
+        <item>古坑鄉</item>
+        <item>麥寮鄉</item>
+        <item>臺西鄉</item>
+        <item>東勢鄉</item>
+        <item>褒忠鄉</item>
+        <item>大埤鄉</item>
+        <item>元長鄉</item>
+        <item>水林鄉</item>
+        <item>口湖鄉</item>
+        <item>四湖鄉</item>
+    </string-array>
+    <!--    嘉義縣行政區劃-->
+    <string-array name="ch_a014">
+        <item>太保市</item>
+        <item>朴子市</item>
+        <item>布袋鎮</item>
+        <item>大林鎮</item>
+        <item>民雄鄉</item>
+        <item>溪口鄉</item>
+        <item>六腳鄉</item>
+        <item>東石鄉</item>
+        <item>義竹鄉</item>
+        <item>鹿草鄉</item>
+        <item>水上鄉</item>
+        <item>中埔鄉</item>
+        <item>竹崎鄉</item>
+        <item>梅山鄉</item>
+        <item>番路鄉</item>
+        <item>大埔鄉</item>
+        <item>新港鄉</item>
+        <item>阿里山鄉</item>
+    </string-array>
+    <!--    嘉義市行政區劃-->
+    <string-array name="ch_a015">
+        <item>東區</item>
+        <item>西區</item>
+    </string-array>
+    <!--    屏東縣行政區劃-->
+    <string-array name="ch_a016">
+        <item>屏東市</item>
+        <item>潮州鎮</item>
+        <item>東港鎮</item>
+        <item>恆春鎮</item>
+        <item>萬丹鄉</item>
+        <item>內埔鄉</item>
+        <item>佳冬鄉</item>
+        <item>來義鄉</item>
+        <item>長治鄉</item>
+        <item>竹田鄉</item>
+        <item>春日鄉</item>
+        <item>琉球鄉</item>
+        <item>麟洛鄉</item>
+        <item>新碑鄉</item>
+        <item>車城鄉</item>
+        <item>獅子鄉</item>
+        <item>牡丹鄉</item>
+        <item>三地門鄉</item>
+        <item>九如鄉</item>
+        <item>枋寮鄉</item>
+        <item>枋山鄉</item>
+        <item>滿州鄉</item>
+        <item>里港鄉</item>
+        <item>新園鄉</item>
+        <item>鹽埔鄉</item>
+        <item>崁頂鄉</item>
+        <item>霧台鄉</item>
+        <item>高樹鄉</item>
+        <item>林邊鄉</item>
+        <item>瑪家鄉</item>
+        <item>萬巒鄉</item>
+        <item>泰武鄉</item>
+        <item>南州鄉</item>
+    </string-array>
+    <!--    宜蘭縣行政區劃-->
+    <string-array name="ch_a017">
+        <item>頭城鎮</item>
+        <item>礁溪鄉</item>
+        <item>員山鄉</item>
+        <item>宜蘭市</item>
+        <item>壯圍鄉</item>
+        <item>大同鄉</item>
+        <item>三星鄉</item>
+        <item>羅東鎮</item>
+        <item>五結鄉</item>
+        <item>冬山鄉</item>
+        <item>蘇澳鎮</item>
+        <item>南澳鄉</item>
+    </string-array>
+    <!--    花蓮縣行政區劃-->
+    <string-array name="ch_a018">
+        <item>花蓮市</item>
+        <item>鳳林鎮</item>
+        <item>玉里鎮</item>
+        <item>新城鄉</item>
+        <item>吉安鄉</item>
+        <item>壽豐鄉</item>
+        <item>光復鄉</item>
+        <item>豐濱鄉</item>
+        <item>瑞穗鄉</item>
+        <item>富里鄉</item>
+        <item>秀林鄉</item>
+        <item>萬榮鄉</item>
+        <item>卓溪鄉</item>
+    </string-array>
+    <!--    臺東縣行政區劃-->
+    <string-array name="ch_a019">
+        <item>台東市</item>
+        <item>成功鎮</item>
+        <item>關山鎮</item>
+        <item>長濱鄉</item>
+        <item>海端鄉</item>
+        <item>池上鄉</item>
+        <item>東河鄉</item>
+        <item>鹿野鄉</item>
+        <item>延平鄉</item>
+        <item>卑南鄉</item>
+        <item>金峰鄉</item>
+        <item>太麻里鄉</item>
+        <item>大武鄉</item>
+        <item>達仁鄉</item>
+        <item>綠島鄉</item>
+        <item>蘭嶼鄉</item>
+    </string-array>
+    <!--    澎湖縣行政區劃-->
+    <string-array name="ch_a020">
+        <item>馬公市</item>
+        <item>湖西鄉</item>
+        <item>白沙鄉</item>
+        <item>西嶼鄉</item>
+        <item>望安鄉</item>
+        <item>七美鄉</item>
+    </string-array>
+    <!--    連江縣行政區劃-->
+    <string-array name="ch_a021">
+        <item>南竿島</item>
+        <item>北竿島</item>
+        <item>高登島</item>
+        <item>亮島</item>
+        <item>東莒島</item>
+        <item>西莒島</item>
+        <item>東引島</item>
+        <item>西引島</item>
+    </string-array>
+    <string-array name="weekday">
+        <item>甲老師</item>
+        <item>乙老師</item>
+        <item>丙老師</item>
+        <item>丁老師</item>
+        <item>戊老師</item>
+        <item>己老師</item>
+        <item>更老師</item>
+    </string-array>
+
+    <string name="f01_b001">官網網站連結</string>
+    <string name="f01_b002">FACEBOOK粉絲團</string>
+    <string name="f01_b003">LINE粉絲團</string>
+    <string name="f01_b004">IG粉絲團</string>
+
+    <string name="b04_t001">進食</string>
+    <string name="b04_t002">移位</string>
+    <string name="b04_t003">個人衛生</string>
+    <string name="b04_t004">如廁</string>
+    <string name="b04_t005">洗澡</string>
+    <string name="b04_t006">平地走動</string>
+    <string name="b04_t007">上下樓梯</string>
+    <string name="b04_t008">穿脫衣褲鞋襪</string>
+    <string name="b04_t009">大便控制</string>
+    <string name="b04_t010">小便控制</string>
+
+    <string-array name="b04_a001">
+        <item>自己在合理的時間內(約10秒鐘吃一口)﹒可用筷子取食眼前食物﹒若須使用進食輔具，會自行取用穿脫，不須協助</item>
+        <item>須別人協助取用或切好食物或穿脫進食輔具</item>
+        <item>無法自行取食</item>
+    </string-array>
+
+    <string-array name="b04_a002">
+        <item>可自行坐起，且由床移位至椅子或輪椅，不須協助，包括輪椅煞車及移開腳踏板，且沒有安全上的顧慮</item>
+        <item>在上述移位過程中，須些微協助(例如：予以輕扶以保持平衡)或提醒﹒或有安全上的顧慮</item>
+        <item>可自行坐起但須別人協助才能移位至椅子</item>
+        <item>須別人協助才能坐起，或須兩人幫忙方可移位</item>
+    </string-array>
+
+    <string-array name="b04_a003">
+        <item>可自行刷牙、洗臉、洗手及梳頭髮和刮鬍子</item>
+        <item>須別人協助才能完成上述盥洗項目</item>
+    </string-array>
+
+    <string-array name="b04_a004">
+        <item>可自行上下馬桶，便後清潔，不會弄髒衣褲，且沒有安全上的顧慮﹒倘使用便盆，可自行取放並清洗乾淨</item>
+        <item>在上述如廁過程中須協助保持平衡﹒整理衣物或使用衛生紙</item>
+        <item>無法自行完成如廁過程</item>
+    </string-array>
+
+    <string-array name="b04_a005">
+        <item>可自行完成盆浴或淋浴</item>
+        <item>須別人協助才能完成盆浴或淋浴</item>
+    </string-array>
+
+    <string-array name="b04_a006">
+        <item>使用或不使用輔具(包括穿支架義肢或無輪子之助行器)皆可獨立行走50公尺以上</item>
+        <item>需要稍微扶持或口頭教導方向可行走50公尺以上</item>
+        <item>雖不能行走，但可獨立操作輪椅或電動輪椅(包含轉彎、進門及接近桌子、床沿)並可推行50公尺以上</item>
+        <item>需要別人幫忙</item>
+    </string-array>
+
+    <string-array name="b04_a007">
+        <item>可自行上下樓梯(可抓扶手或用拐杖)</item>
+        <item>需要稍微扶持或口頭指導</item>
+        <item>無法上下樓梯</item>
+    </string-array>
+
+    <string-array name="b04_a008">
+        <item>可自行穿脫衣褲鞋襪，必要時使用輔具</item>
+        <item>在別人幫忙下，可自行完成一半以上動作</item>
+        <item>需要別人完全幫忙</item>
+    </string-array>
+
+    <string-array name="b04_a009">
+        <item>不會失禁，必要時會自行使用塞劑</item>
+        <item>偶而會失禁(每週不超過一次)，使用塞劑時需要別人幫忙</item>
+        <item>失禁或需要灌腸</item>
+    </string-array>
+
+    <string-array name="b04_a010">
+        <item>日夜皆不會尿失禁，必要時會自行使用並清理尿布尿套</item>
+        <item>偶而會失禁(每週不超過一次)，使用尿布尿套時需要別人幫忙</item>
+        <item>失禁或需要導尿</item>
+    </string-array>
+
+    <string name="b05_t001">"合約起始日: "</string>
+    <string name="b05_t002">"合約終止日: "</string>
+    <string name="b05_t003">"費用: "</string>
+
+    <string name="menu1">"註冊 "</string>
+    <string name="menu2">"登入 "</string>
+    <string name="menu3">"忘記密碼 "</string>
+    <string name="menu4">"登出 "</string>
+    <string name="menu5">"資料設定 "</string>
+    <string name="menu6">"結束 "</string>
+    <string name="login">"登入 "</string>
+
+    <string name="btnadd">新增案主照護紀錄</string>
+    <string name="m_content">m_content</string>
+    <string name="m_list">m_list</string>
+
+    <string name="n_yy">年</string>
+    <string name="n_mm">月</string>
+    <string name="n_dd">日</string>
+    <string name="age">歲</string>
+
+    <string name="signed_in_fmt">Google Account: %s</string>
+    <string name="signed_out">登出</string>
+
+    <string name="e01_ttsplay">播放</string>
+    <string name="e01_ttsstop">停止</string>
+
+    <string name="showlocid">顯示目前位置</string>
+    <string name="toutput">狀態</string>
+    <string name="h01_b007">顯示藥局位置</string>
+    <string name="h01_b008">關閉地圖</string>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lime">
+
+    <TextView
+        android:id="@+id/h02_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/Black"
+        android:gravity="center_horizontal"
+        android:text="@string/mh02_t001"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mh02_t002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h02_t001"
+        android:layout_marginStart="@dimen/Margins"
+        android:layout_marginLeft="@dimen/Margins"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/Margins"
+        android:layout_marginRight="@dimen/Margins"
+        android:layout_marginBottom="@dimen/Margins"
+        android:background="@color/White"
+        android:hint="@string/mh02_t002"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mh02_t003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mh02_t002"
+        android:layout_marginStart="@dimen/Margins"
+        android:layout_marginLeft="@dimen/Margins"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/Margins"
+        android:layout_marginRight="@dimen/Margins"
+        android:layout_marginBottom="@dimen/Margins"
+        android:background="@color/White"
+        android:hint="@string/mh02_t003"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mh02_t004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mh02_t003"
+        android:layout_marginStart="@dimen/Margins"
+        android:layout_marginLeft="@dimen/Margins"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/Margins"
+        android:layout_marginRight="@dimen/Margins"
+        android:layout_marginBottom="@dimen/Margins"
+        android:background="@color/White"
+        android:hint="@string/mh02_t004"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mh02_t004"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        tools:layout="@android:layout/browser_link_context_header" />
+
+    <LinearLayout
+        android:id="@+id/Linear_msg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="#66cccccc"
+            android:text="@string/showlocid"
+            android:textColor="@color/Teal" />
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#66cccccc"
+            android:textColor="@color/Teal" />
+    </LinearLayout>
+
+
+</RelativeLayout>

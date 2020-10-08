@@ -1,0 +1,2 @@
+include ':medical_care_helper'
+rootProject.name = "Project"
